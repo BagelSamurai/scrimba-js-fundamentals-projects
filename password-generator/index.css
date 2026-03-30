@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    text-align: left;
+    background-color: #1C1C1C;
+    font-family: "Open Sans", sans-serif;
+}
+
+#card{
+    background-color: #ECFDF5;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 100px auto;
+    padding: 50px;
+}
+.green-text{
+    color: #10B981;
+}
+.password-text{
+    color: #5DEF92
+}
+h1{
+    margin-bottom: -5px;
+}
+
+h3{
+    color: #6B7280;
+}
+
+button{
+    margin-top: 40px;
+    background-color: #10B981;
+    border:none;
+    color: white;
+    font-family: inherit;
+    padding: 15px 30px;
+    font-weight: bold; 
+    border-radius: 8px;
+}
+hr{
+    margin-top: 40px;
+}
+#passwords{
+    display: flex;
+    gap: 50px;
+    margin-top: 50px;
+}
+#password-1, #password-2{
+    background-color: #273549;
+    height: 50px;
+    width: 100%;
+   border-radius: 8px;
+   font-family: inherit;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+   
+   
+}
